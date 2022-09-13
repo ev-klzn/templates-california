@@ -140,3 +140,64 @@ body {
 }
 
 .main__tel {}
+
+/* -------------------------------------------------------------- */
+
+.offerrs {
+    width: 1350px;
+    height: 1018px;
+}
+
+.title {
+    margin: 25px auto;
+    width: 780px;
+    height: 53px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    /* identical to box height, or 125% */
+    text-align: center;
+    color: #000000;
+}
+
+.subtitle {
+    margin: 25px auto;
+    width: 628px;
+    height: 34px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 120% */
+    text-align: center;
+    color: #000000;
+}
+
+.categories {}
+
+.categories__horizont {}
+
+.laptop {}
+
+.laptop__img {}
+
+.category__name {}
+
+.category__info {}
+
+.watch {}
+
+.watch__img {}
+
+.categories__vertical {}
+
+.phone {}
+
+.phone__img {}
+
+.tablet {}
+
+.tablet__img {}
