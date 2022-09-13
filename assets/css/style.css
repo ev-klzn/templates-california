@@ -41,7 +41,8 @@ html {
 }
 
 body {
-    /* font-family: "Gilroy", sans-serif; */
+    font-family: 'Readex Pro', sans-serif;
+    font-family: 'Inter', sans-serif;
     line-height: 1;
 }
 
@@ -51,3 +52,28 @@ body {
 }
 
 /* --------------- */
+
+.container {
+    margin: 50px auto;
+    max-width: 1294px;
+}
+
+.header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    al
+}
+
+.logo {}
+
+.logo__img {}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.cart {}
+
+.cart__img {}
