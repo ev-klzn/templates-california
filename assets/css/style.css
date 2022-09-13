@@ -11,6 +11,10 @@ li {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 a,
 a:visited {
     text-decoration: none;
@@ -54,7 +58,7 @@ body {
 /* --------------- */
 
 .container {
-    margin: 50px auto;
+    margin: 40px auto;
     max-width: 1294px;
 }
 
@@ -62,7 +66,8 @@ body {
     height: 80px;
     display: flex;
     justify-content: space-between;
-    al
+    align-items: center;
+    margin-bottom: 28px;
 }
 
 .logo {}
@@ -72,8 +77,66 @@ body {
 .menu {
     display: flex;
     gap: 20px;
+    text-transform: uppercase;
 }
 
 .cart {}
 
 .cart__img {}
+
+/* -------------------------------- */
+
+.main {}
+
+.main__banner {
+    height: 550px;
+    background: #DCE5E2;
+    border-radius: 32px;
+    display: flex;
+}
+
+.main__text {
+    max-width: 776.39px;
+    padding-left: 56px;
+}
+
+.main__title {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    color: #000000;
+    padding-top: 145px;
+
+
+}
+
+.main__subtitle {
+    height: 39px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-top: 19px;
+    margin-bottom: 30px;
+}
+
+.main__btn {
+    height: 50px;
+    width: 170px;
+    border: 1px solid black;
+    border-radius: 200px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #000000;
+    background: #DCE5E2;
+}
+
+.main__tel {}
