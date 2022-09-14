@@ -360,3 +360,31 @@ body {
 }
 
 /* -------------------------------------------------------------------------------- */
+
+.best {
+    width: 1350px;
+    height: 663px;
+}
+
+.best__block {
+    width: 1294px;
+    height: 98px;
+}
+
+.best__item {
+    width: 1294px;
+    height: 453px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.best__name {}
+
+.best__category {}
+
+.m .best__img {
+    width: 100%;
+}
