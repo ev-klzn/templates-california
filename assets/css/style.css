@@ -292,3 +292,65 @@ body {
 .tablet__img {
     width: 100%;
 }
+
+/* ------------------------------------------------------------------------- */
+.save {
+    width: 1350px;
+    height: 606px;
+}
+
+.save__block {
+    width: 1294px;
+    height: 154px;
+}
+
+.save__items {
+    width: 1294px;
+    height: 396px;
+    display: flex;
+    gap: 27px;
+}
+
+.item {
+    width: 302.5px;
+    height: 396px;
+    text-align: center;
+    padding: 25px;
+}
+
+.item__img {
+    width: 247px;
+    height: 214px;
+}
+
+.item__name {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height, or 125% */
+    color: #000000;
+    padding-top: 10px;
+}
+
+.item__info {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 120% */
+    color: #4B4B4B;
+    padding: 15px 0;
+}
+
+.item__price {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+    color: #000000;
+}
