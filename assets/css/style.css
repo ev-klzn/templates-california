@@ -371,20 +371,50 @@ body {
     height: 98px;
 }
 
-.best__item {
+.best__wrapper {
     width: 1294px;
     height: 453px;
     display: flex;
-    flex-direction: column;
     gap: 20px;
-    text-align: center;
-    align-items: center;
 }
 
-.best__name {}
+.best__item {
+    margin-top: 35px;
+    padding-top: 41px;
+    text-align: center;
+    align-items: center;
+    background: #F8F9FA;
+    border-radius: 16px;
+    width: 413px;
+    height: 453px;
+}
 
-.best__category {}
+.best__name {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    /* identical to box height, or 129% */
 
-.m .best__img {
+    text-align: center;
+
+    color: #000000;
+}
+
+.best__category {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    /* identical to box height, or 125% */
+    text-align: center;
+    color: #000000;
+}
+
+.main__btn {}
+
+.best__img {
     width: 100%;
 }
