@@ -315,12 +315,16 @@ body {
     width: 302.5px;
     height: 396px;
     text-align: center;
-    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify;
 }
 
 .item__img {
     width: 247px;
     height: 214px;
+    margin: auto;
 }
 
 .item__name {
@@ -342,7 +346,6 @@ body {
     line-height: 17px;
     /* or 120% */
     color: #4B4B4B;
-    padding: 15px 0;
 }
 
 .item__price {
