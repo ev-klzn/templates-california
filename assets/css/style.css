@@ -56,7 +56,7 @@ body {
     overflow: hidden;
 }
 
-/* --------------- */
+/* ---------------------------------------------------------------- */
 
 .container {
     margin: 40px auto;
@@ -85,7 +85,7 @@ body {
 
 .cart__img {}
 
-/* -------------------------------- */
+/* --------------------------------------------------------------------------------- */
 
 .main {}
 
@@ -109,8 +109,6 @@ body {
     line-height: 70px;
     color: #000000;
     padding-top: 145px;
-
-
 }
 
 .main__subtitle {
@@ -397,9 +395,7 @@ body {
     font-size: 13px;
     line-height: 17px;
     /* identical to box height, or 129% */
-
     text-align: center;
-
     color: #000000;
 }
 
@@ -428,7 +424,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 100px;
-
 }
 
 .ideas__block {
@@ -484,7 +479,6 @@ body {
 .looking {
     width: 1294px;
     height: 778px;
-
 }
 
 .search {
@@ -517,7 +511,6 @@ body {
     justify-content: center;
     gap: 10px;
     margin-bottom: 30px;
-
 }
 
 .tags__name {
@@ -555,8 +548,6 @@ body {
 }
 
 .email {
-    /* display: block; */
-    /* text-align: center; */
     width: 400px;
     height: 50px;
     margin: auto;
@@ -599,7 +590,6 @@ body {
     width: 394px;
     height: 191px;
     margin: 28px;
-
 }
 
 .logo__img {
@@ -644,8 +634,6 @@ body {
     margin-top: 100px;
     height: 78px;
     width: 1350px;
-    /* text-align: center; */
-
 }
 
 .made__by {
