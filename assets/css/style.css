@@ -13,6 +13,7 @@ li {
 
 a {
     text-decoration: none;
+    color: #000000;
 }
 
 a,
@@ -416,5 +417,145 @@ body {
 .main__btn {}
 
 .best__img {
+    width: 100%;
+}
+
+/* -------------------------------------------- */
+
+.ideas {
+    width: 1350px;
+    height: 728px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+}
+
+.ideas__block {
+    width: 1294px;
+    height: 78px;
+    /* margin-top: 100px; */
+    text-align: center;
+}
+
+.book__block {
+    display: flex;
+}
+
+.book__img {
+    width: 620px;
+    height: 420px;
+    width: 100%;
+}
+
+.book__info {
+    padding-top: 25px;
+    width: 639px;
+    height: 292px;
+}
+
+.book__text {
+    width: 639px;
+    height: 65px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 125% */
+    color: #000000;
+    text-align: justify;
+}
+
+.see {
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+.see img {
+    width: 22px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* ----------------------------------------------------------- */
+
+.looking {
+    width: 1294px;
+    height: 778px;
+
+}
+
+.search {
+    height: 60px;
+    background: #F8F9FA;
+    border: 1px solid #C5C5C5;
+    border-radius: 100px;
+    display: block;
+    width: 100%;
+    padding-left: 50px;
+    width: 650px;
+    height: 92px;
+    margin: auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height, or 120% */
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.tags {
+    width: 660px;
+    height: 98px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+
+}
+
+.tags__name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    height: 42px;
+    background: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    border-radius: 200px;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.never__block {
+    width: 935px;
+    height: 450px;
+    background: #DCE5E2;
+    border-radius: 16px;
+    margin: auto;
+}
+
+.never__bg {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.never__img {
+    width: 233px;
+    height: 200px;
+    margin: auto;
+}
+
+.email {
+    display: inline-block;
+    text-align: center;
     width: 100%;
 }
