@@ -555,7 +555,29 @@ body {
 }
 
 .email {
-    display: inline-block;
-    text-align: center;
-    width: 100%;
+    /* display: block; */
+    /* text-align: center; */
+    width: 400px;
+    height: 50px;
+    margin: auto;
+    background-color: #000;
+    border-radius: 200px;
+}
+
+.inputemail {
+    padding-left: 50px;
+    width: 285px;
+    height: 50px;
+    background: #DCE5E2;
+    border: 1px solid #000000;
+    border-radius: 200px 0px 0px 200px;
+}
+
+.buttonemail {
+
+    width: 110px;
+    height: 50px;
+    color: white;
+    background: #000000;
+    border-radius: 0px 200px 200px 0px;
 }
