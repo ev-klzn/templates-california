@@ -59,7 +59,7 @@ body {
 /* ---------------------------------------------------------------- */
 
 .container {
-    margin: 40px auto;
+    margin: auto;
     max-width: 1294px;
 }
 
@@ -90,7 +90,7 @@ body {
 .main {}
 
 .main__banner {
-    min-height: 550px;
+    max-height: 550px;
     background: #DCE5E2;
     border-radius: 32px;
     display: flex;
@@ -145,7 +145,7 @@ body {
 
 .offerrs {
     max-width: 1350px;
-    min-height: 1018px;
+    max-height: 1018px;
 }
 
 .title {
@@ -198,8 +198,8 @@ body {
     color: #FFFFFF;
     /* padding: 35px; */
     filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
-    width: 639px;
-    height: 472px;
+    max-width: 639px;
+    min-height: 472px;
     padding-bottom: 25px;
     padding-right: 15px;
 }
@@ -240,8 +240,8 @@ body {
     /* border-radius: 32px; */
     color: #FFFFFF;
     filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
-    width: 639px;
-    height: 270px
+    max-width: 639px;
+    min-height: 270px
 }
 
 .wath__text {
@@ -642,4 +642,71 @@ body {
     padding-top: 50px;
     border-top: 1px solid #C5C5C5;
     color: #C5C5C5;
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+
+
+@media (max-width:1376px) {
+    .container {
+        padding-left: 30px;
+        margin: auto;
+    }
+}
+
+@media (max-width:1342px) {
+    .offerrs {
+        padding: 30px;
+    }
+
+    .categories {
+        /* display: flex;
+        flex-direction: column;
+        margin: auto; */
+    }
+}
+
+@media (max-width: 1257px) {
+    .category__info {
+        font-size: 25px;
+        line-height: 25px;
+        color: #000000;
+        padding: 5px 5px 5px 5px;
+    }
+
+    .main__title {
+        font-family: 'Readex Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 40px;
+        color: #000000;
+        padding-top: 50px;
+    }
+
+    .laptop__img {
+        display: none;
+    }
+
+    .watch__img {
+        display: none;
+    }
+
+    .phone__img {
+        display: none;
+    }
+
+    .tablet__img {
+        display: none;
+    }
+
+    .main__banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main__tel {
+        display: none;
+    }
+
 }
