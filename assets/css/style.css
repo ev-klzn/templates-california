@@ -666,7 +666,7 @@ body {
     }
 }
 
-@media (max-width: 1257px) {
+@media (max-width: 1400px) {
     .category__info {
         font-size: 25px;
         line-height: 25px;
@@ -674,39 +674,47 @@ body {
         padding: 5px 5px 5px 5px;
     }
 
-    .main__title {
-        font-family: 'Readex Pro';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 38px;
-        line-height: 40px;
-        color: #000000;
-        padding-top: 50px;
-    }
+    @media (max-width: 1257px) {
+        .category__info {
+            font-size: 25px;
+            line-height: 25px;
+            color: #000000;
+            padding: 5px 5px 5px 5px;
+        }
 
-    .laptop__img {
-        display: none;
-    }
+        .main__title {
+            font-family: 'Readex Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 38px;
+            line-height: 40px;
+            color: #000000;
+            padding-top: 50px;
+        }
 
-    .watch__img {
-        display: none;
-    }
+        .laptop__img {
+            display: none;
+        }
 
-    .phone__img {
-        display: none;
-    }
+        .watch__img {
+            display: none;
+        }
 
-    .tablet__img {
-        display: none;
-    }
+        .phone__img {
+            display: none;
+        }
 
-    .main__banner {
-        display: flex;
-        flex-direction: column;
-    }
+        .tablet__img {
+            display: none;
+        }
 
-    .main__tel {
-        display: none;
-    }
+        .main__banner {
+            display: flex;
+            flex-direction: column;
+        }
 
-}
+        .main__tel {
+            display: none;
+        }
+
+    }
